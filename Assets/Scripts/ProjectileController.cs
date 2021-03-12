@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+public delegate void OutOfBoundsHandler();
+
 public class ProjectileController : MonoBehaviour
 {
     #region Field Declarations
@@ -9,6 +11,7 @@ public class ProjectileController : MonoBehaviour
     public bool isPlayers;
 
     #endregion
+
 
     #region Movement
 
@@ -24,6 +27,11 @@ public class ProjectileController : MonoBehaviour
 
         if (ScreenBounds.OutOfBounds(transform.position))
         {
+            if (isPlayers == true)
+            {
+                EventBroker.CallProjectileOutOfBounds();
+            }
+
             Destroy(gameObject);
         }
     }

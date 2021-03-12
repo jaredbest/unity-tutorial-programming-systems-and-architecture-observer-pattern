@@ -153,7 +153,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e230275d6bf614ea7a90fc30f04a03d9, type: 2}
   currentLevel: {fileID: 0}
   playerSpeed: 5
-  shieldDuration: 5
+  shieldDuration: 1.9
 --- !u!4 &431473718
 Transform:
   m_ObjectHideFlags: 0
@@ -5030,11 +5030,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HUD
-      objectReference: {fileID: 0}
-    - target: {fileID: 9085529995821107367, guid: 729a3fa1cc0894c73bff51d5094fcc94,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5603365420853893713, guid: 729a3fa1cc0894c73bff51d5094fcc94,
         type: 3}
