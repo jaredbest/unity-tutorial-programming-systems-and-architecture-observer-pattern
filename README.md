@@ -1,6 +1,6 @@
 # Course Repo
 
-- **Title:** Programming Systems and Architecture - C# Scripting in Unity: The Observer Pattern
+- **Title:** Programming Systems and Architecture: The Observer Pattern
 - **Taught by:** Unity Technologies
 - **Platform:** Unity Learn
 - **Note(s):**
